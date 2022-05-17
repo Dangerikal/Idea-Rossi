@@ -85,7 +85,7 @@ navigation ul{
     margin: -25px 0 0 -25px;
 }
 .footer{
-    background:#f71818;
+    background-image: linear-gradient(red,black);
     padding: 2rem 0;
     text-align: center;
     position: absolute;
@@ -132,9 +132,11 @@ h1{
     .galeria{
         grid-template-columns: repeat(3, 1fr);
     }
+    }
 @media (min-width: 1024px){
         .galeria{
             grid-template-columns: repeat(4, 1fr);
+        }
         }
 
     /*Biografia*/
